@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+section button:nth-child(4){
+    width: 10%;
+    border: 3px solid brown;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: background-color 0.2s ease-in-out,color 0.2s ease-in-out;
+}
+.cen{
+
+    text-align: center;
+}
+section input{
+    width: 15%;
+    height: 15px;
+    padding: 0.5% 0.5%;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+section input:hover{
+    background-color: burlywood;
+}
+section button:hover:nth-child(4){
+    background-color: brown;
+    color: white;
+}
+section button:nth-child(2){
+    height: 19px;
+    margin-left: -2%;
+}
+#spp{
+    font-family: "Lucida Console", Courier, monospace;
+}
+label{
+    font-family: 'Times New Roman', serif;
+}
+#re{
+    margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+    section button:nth-child(4){
+        width: 50%;
+        border: 3px solid brown;
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: background-color 0.2s ease-in-out,color 0.2s ease-in-out;
+    }
+    section input{
+        width: 60%;
+        height: 30px;
+        padding: 0.5% 0.5%;
+        border-radius: 10px;
+        transition: background-color 0.2s ease-in-out;
+    }
+    section button:nth-child(2){
+        height: 20px;
+        margin-left: -10%;
+    }
+}
+#sh{
+    border-radius: 12px;
+    border-style: none;
+    background-color: white;
+    color: black;
+    transition: background-color 0.2s ease-in-out,color 0.2s ease-in-out;
+}
+#sh:hover{
+    background-color: black;
+    color: white;
+}
